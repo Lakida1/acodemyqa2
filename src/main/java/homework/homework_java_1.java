@@ -78,12 +78,12 @@ public class homework_java_1 {
       long coronavirusIndia = 34922882L;
       long coronavirusBrazil = 34922882L;
       long populationOfUsa = 331893745L;
-      long populationofIndia = 1400000000L;
+      long populationOfIndia = 1400000000L;
       long populationOfBrazil = 210147125L;
       long coronavirusRussia = 10554309L;
       long populationOfRussia = 146171015L;
            System.out.println("10 variables of long: " + " " + populationOfWorld + " " + coronavirusWorld + " " + populationOfUsa + " " + coronavirusUsa + " "
-                              +  populationofIndia + " " + coronavirusIndia + " " + populationOfBrazil + " " + coronavirusBrazil + " " + populationOfRussia + " " + coronavirusRussia + " "
+                              +  populationOfIndia + " " + coronavirusIndia + " " + populationOfBrazil + " " + coronavirusBrazil + " " + populationOfRussia + " " + coronavirusRussia + " "
                               +'\n');
   //float
     System.out.println(typeFloat + " : " + minValue + Float.MIN_VALUE + "," + " " + maxValue + Float.MAX_VALUE + (" ") + (",  ") +
@@ -121,19 +121,19 @@ public class homework_java_1 {
             ("real number with floating point,") + " " + ("default Value:") + " " + ("0d;") + (" DO NOT USING FOR PRECISE VALUES"));
       double doubleTemperatureAbsolutZero = -273.15d;
       double doubleNumberPi = 3.141592653589793236128d;
-      double doubleCoronavirusRelativeOfPopulationInWorld = 1;
-      double doubleCoronavirusRelativeOfPopulationInLatvia = 2;
-      double doubleCoronavirusRelativeOfPopulationInLithuania = 3;
-      double doubleCoronavirusRelativeOfPopulationInEstonia = 4;
-      double doubleCoronavirusRelativeOfPopulationInUsa = 5;
-      double doubleCoronavirusRelativeOfPopulationInIndia = 6;
-      double doubleCoronavirusRelativeOfPopulationInBrazil = 7;
-      double doubleCoronavirusRelativeOfPopulationInRussia = 8;
+      double doubleExampleOne = 89.8992211d;
+      double doubleExampleTwo = 71008.88522d;
+      double doubleExampleThree = -0.5244647d;
+      double doubleExampleFour = 1054.8;
+      double doubleExampleFive= 4545.3541545;
+      double doubleExampleSix = -8748.7;
+      double doubleExampleSeven = 0.8818;
+      double doubleExampleEight = 633212.554;
 //char
             System.out.println("10 variables of double: " + '\n' + "The Absolute Zero of Temperature: " + doubleTemperatureAbsolutZero + charTemperature + "C" + '\n'
-            + charNumberPi + "=" + doubleNumberPi + '\n' + doubleCoronavirusRelativeOfPopulationInWorld + " "+ doubleCoronavirusRelativeOfPopulationInLatvia + " " + doubleCoronavirusRelativeOfPopulationInLithuania + " "
-            + " " + doubleCoronavirusRelativeOfPopulationInEstonia + " " + doubleCoronavirusRelativeOfPopulationInUsa + " " + doubleCoronavirusRelativeOfPopulationInIndia + " " + doubleCoronavirusRelativeOfPopulationInBrazil
-            + " " + doubleCoronavirusRelativeOfPopulationInRussia + '\n');
+            + charNumberPi + "=" + doubleNumberPi + '\n' + doubleExampleOne + " "+ doubleExampleTwo + " " + doubleExampleThree + " "
+            + " " + doubleExampleFour + " " + doubleExampleFive + " " + doubleExampleSix + " " + doubleExampleSeven
+            + " " + doubleExampleEight + '\n');
 //boolean
     System.out.println(typeBoolean + " " + "possible variables: " + FALSE + " and " + TRUE);
       boolean variableFalse = FALSE; // not possible to create 10 variables, only 2;
@@ -146,6 +146,7 @@ public class homework_java_1 {
     byte exampleModulusFirst = 89%3;
     byte exampleModulusSecond = 8%7;
     int exampleSubtractionFirst = shortMin-shortMax;
+    float percentOfCasesInWorld = 1;
     System.out.println("Examples:" + '\n' + "2" + charPlus + "3" + charDevide + exampleAdditionFirst + '\n'
             + "6+32767 = " + exampleAdditionSecond + '\n'
             + "-32768-32767 = " + exampleSubtractionFirst + '\n'
@@ -153,7 +154,7 @@ public class homework_java_1 {
             + "5*2=" + 5*2 + '\n'
             + "area of circle" + charDevide + charNumberPi + charMultiplie + "R" + charSqaured + " " + "where R = 7 cm" + ": area of circle=" + 7*7*doubleNumberPi + " cm" + '\n'
             + "15*(-273.15) = " + shortSumElevenAndFour*floatTemperatureAbsolutZero + '\n'
-            + "Coronavirus relative to population (in world) = " + doubleCoronavirusRelativeOfPopulationInWorld + '\n'
+            + "633212.554/1054.8= " + doubleExampleEight/doubleExampleFour + '\n'
             + "89 % 3 = " + exampleModulusFirst + '\n'
             + "8 % 7 = " + exampleModulusSecond);
 

@@ -23,8 +23,8 @@ public class PrimitiveTypes {
         System.out.println(Byte.MAX_VALUE);
         System.out.println(Byte.MIN_VALUE);
 
-        short distanceBetweenRigaandKiev = 1011;
-        System.out.println(distanceBetweenRigaandKiev);
+        short distanceBetweenRigaAndKiev = 1011;
+        System.out.println(distanceBetweenRigaAndKiev);
 
         int populationOfLatvia = 1900000;
         System.out.println(populationOfLatvia);
