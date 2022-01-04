@@ -146,7 +146,7 @@ public class homework_java_1 {
     byte exampleModulusFirst = 89%3;
     byte exampleModulusSecond = 8%7;
     int exampleSubtractionFirst = shortMin-shortMax;
-    float percentOfCasesInWorld = 1;
+
     System.out.println("Examples:" + '\n' + "2" + charPlus + "3" + charDevide + exampleAdditionFirst + '\n'
             + "6+32767 = " + exampleAdditionSecond + '\n'
             + "-32768-32767 = " + exampleSubtractionFirst + '\n'
